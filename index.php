@@ -1,12 +1,10 @@
 ﻿<?php
 // You can add any PHP logic here if needed
-$pageTitle = "My Favorite Links";
+$pageTitle = "Stuff";
 $links = [
-    ["name" => "Google", "url" => "https://www.google.com", "description" => "Search engine"],
+    ["name" => "Better Level Up", "url" => "https://www.curseforge.com/wow/addons/blu-better-level-up", "description" => "BLU - Better Level Up"],
     ["name" => "GitHub", "url" => "https://github.com", "description" => "Code repository"],
     ["name" => "Stack Overflow", "url" => "https://stackoverflow.com", "description" => "Developer community"],
-    ["name" => "MDN Web Docs", "url" => "https://developer.mozilla.org", "description" => "Web development resources"],
-    ["name" => "W3Schools", "url" => "https://www.w3schools.com", "description" => "Web tutorials"],
 ];
 ?>
 
@@ -164,7 +162,7 @@ $links = [
     <header class="header">
         <img src="https://via.placeholder.com/150/667eea/ffffff?text=LINKS" alt="Header Image" class="header-image">
         <h1><?php echo $pageTitle; ?></h1>
-        <p>A curated collection of useful websites and resources</p>
+        <p>Relevent links for the astute web surfer</p>
     </header>
 
     <div class="container">
