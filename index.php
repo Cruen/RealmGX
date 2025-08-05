@@ -162,7 +162,7 @@ $links = [
 </head>
 <body>
     <header class="header">
-        <img src="https://via.placeholder.com/150/667eea/ffffff?text=LINKS" alt="Header Image" class="header-image">
+        <img src=".\kiwi.jpg?text=LINKS" alt="Header Image" class="header-image">
         <h1><?php echo $pageTitle; ?></h1>
         <p>A curated collection of useful websites and resources</p>
     </header>
