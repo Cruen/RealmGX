@@ -1,10 +1,12 @@
 ﻿<?php
 // You can add any PHP logic here if needed
-$pageTitle = "Stuff";
+$pageTitle = "My Favorite Links";
 $links = [
-    ["name" => "Better Level Up", "url" => "https://www.curseforge.com/wow/addons/blu-better-level-up", "description" => "BLU - Better Level Up"],
+    ["name" => "Google", "url" => "https://www.google.com", "description" => "Search engine"],
     ["name" => "GitHub", "url" => "https://github.com", "description" => "Code repository"],
     ["name" => "Stack Overflow", "url" => "https://stackoverflow.com", "description" => "Developer community"],
+    ["name" => "MDN Web Docs", "url" => "https://developer.mozilla.org", "description" => "Web development resources"],
+    ["name" => "W3Schools", "url" => "https://www.w3schools.com", "description" => "Web tutorials"],
 ];
 ?>
 
@@ -24,16 +26,16 @@ $links = [
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
-            color: #333;
-            background-color: #f4f4f4;
+            color: #fff;
+            background-color: #000;
         }
 
         .header {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
             color: white;
             text-align: center;
             padding: 2rem 0;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
         }
 
         .header-image {
@@ -67,20 +69,20 @@ $links = [
         }
 
         .links-section {
-            background: white;
+            background: #1a1a1a;
             border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
             overflow: hidden;
         }
 
         .section-title {
-            background: #f8f9fa;
+            background: #2a2a2a;
             padding: 1.5rem;
-            border-bottom: 1px solid #dee2e6;
+            border-bottom: 1px solid #444;
         }
 
         .section-title h2 {
-            color: #495057;
+            color: #fff;
             font-size: 1.5rem;
             font-weight: 400;
         }
@@ -94,23 +96,23 @@ $links = [
             align-items: center;
             padding: 1rem;
             margin: 0.5rem 0;
-            background: #f8f9fa;
+            background: #2a2a2a;
             border-radius: 8px;
             transition: all 0.3s ease;
             text-decoration: none;
-            color: inherit;
+            color: #fff;
         }
 
         .link-item:hover {
-            background: #e9ecef;
+            background: #3a3a3a;
             transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 12px rgba(220,53,69,0.3);
         }
 
         .link-icon {
             width: 40px;
             height: 40px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background: linear-gradient(135deg, #dc3545 0%, #c82333 100%);
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -128,17 +130,17 @@ $links = [
         .link-name {
             font-size: 1.1rem;
             font-weight: 600;
-            color: #495057;
+            color: #fff;
             margin-bottom: 0.2rem;
         }
 
         .link-description {
             font-size: 0.9rem;
-            color: #6c757d;
+            color: #ccc;
         }
 
         .link-arrow {
-            color: #6c757d;
+            color: #ccc;
             font-size: 1.2rem;
         }
 
@@ -162,7 +164,7 @@ $links = [
     <header class="header">
         <img src="https://via.placeholder.com/150/667eea/ffffff?text=LINKS" alt="Header Image" class="header-image">
         <h1><?php echo $pageTitle; ?></h1>
-        <p>Relevent links for the astute web surfer</p>
+        <p>A curated collection of useful websites and resources</p>
     </header>
 
     <div class="container">
