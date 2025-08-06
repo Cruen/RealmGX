@@ -1,6 +1,6 @@
 ﻿<?php
 // You can add any PHP logic here if needed
-$pageTitle = "My Favorite Links";
+$pageTitle = "RealmGX";
 $links = [
     ["name" => "Google", "url" => "https://www.google.com", "description" => "Search engine"],
     ["name" => "GitHub", "url" => "https://github.com", "description" => "Code repository"],
@@ -164,7 +164,7 @@ $links = [
     <header class="header">
         <img src="images/kiwi.jpg" alt="Header Image" class="header-image">
         <h1><?php echo $pageTitle; ?></h1>
-        <p>A curated collection of useful websites and resources</p>
+        <p>Out beyond ideas of wrong and right there is a website. I'll meet you there.</p>
     </header>
 
     <div class="container">
