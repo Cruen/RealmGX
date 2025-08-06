@@ -164,7 +164,7 @@ $links = [
     <header class="header">
         <img src="images/kiwi.jpg" alt="Header Image" class="header-image">
         <h1><?php echo $pageTitle; ?></h1>
-        <p>Out beyond ideas of wrong and right there is a website. I'll meet you there.</p>
+        <p>Out beyond ideas of wrongdoing and rightdoing there is a website. I'll meet you there.</p>
     </header>
 
     <div class="container">
